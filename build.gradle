@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.mapstruct:mapstruct:1.5.0.RC1"
+    annotationProcessor "org.mapstruct:mapstruct-processor:1.5.0.RC1"
+}
+
